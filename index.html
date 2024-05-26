@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>AJAX Giphy Party</h1>
+  <form id="gifForm">
+      <input type="text" id="searchTerm" placeholder="Search for a GIF" required>
+      <button type="submit">Search</button>
+  </form>
+  <div id="removeGifsContainer">  
+    <button id="removeGifs">Remove All GIFs</button>
+  </div>
+  <div class="gif-container" id="gifContainer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
